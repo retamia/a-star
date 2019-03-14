@@ -203,7 +203,7 @@ public class Main {
      */
     static double hManhattanDistance(Geometry.Point current, Geometry.Point target)
     {
-        return Math.abs(current.x - target.x) + Math.abs(current.y - target.y);
+        return 5 * Math.abs(current.x - target.x) + Math.abs(current.y - target.y);
     }
 
     static double hBFS(Geometry.Point current, Geometry.Point target)
